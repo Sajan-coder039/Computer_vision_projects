@@ -32,7 +32,7 @@ class CustomModel(nn.Module):
 
 # To this:
 model = CustomModel()
-model.load_state_dict(torch.load("model_!.pt", map_location='cpu'))
+model.load_state_dict(torch.load("model_1.pt", map_location='cpu'))
 model.eval()
 
 print("Weights loaded successfully!")
